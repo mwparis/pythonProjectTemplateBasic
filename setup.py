@@ -3,7 +3,8 @@ try:
 except ImportError:
     from distutils.core import setup
 
-config = [
+config = {
+        'name': 'NAME'
         'description': 'My Project',
         'author': 'Mark Paris',
         'url': 'https://github.com/mwparis/pythonProjectTemplate.git',
@@ -13,7 +14,6 @@ config = [
         'install_requires': ['nose'],
         'packages': ['NAME'],
         'scripts': [],
-        'name': 'generic_project_template'
-]
+}
 
 setup(**config)
