@@ -4,7 +4,7 @@ except ImportError:
     from distutils.core import setup
 
 config = {
-        'name': 'NAME'
+        'name': 'NAME',
         'description': 'My Project',
         'author': 'Mark Paris',
         'url': 'https://github.com/mwparis/pythonProjectTemplate.git',
